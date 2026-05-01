@@ -1,0 +1,8 @@
+:root { --primary: #6366f1; --bg: #0f172a; --card: #1e293b; --text: #f8fafc; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.container { background: var(--card); padding: 2rem; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5); width: 100%; max-width: 400px; }
+input, button { width: 100%; padding: 12px; margin: 8px 0; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: white; box-sizing: border-box; }
+button { background: var(--primary); font-weight: bold; cursor: pointer; border: none; }
+button:hover { background: #4f46e5; }
+.nav { margin-bottom: 20px; text-align: center; }
+.nav a { color: var(--primary); text-decoration: none; margin: 0 10px; }
