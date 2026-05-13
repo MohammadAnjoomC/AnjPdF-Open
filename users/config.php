@@ -25,8 +25,8 @@ if (!file_exists(USER_DATA_DIR . '.htaccess')) {
 
 // SMTP Settings
 define('SMTP_HOST', 'smtp.gmail.com');
-define('SMTP_USER', 'hourctws@gmail.com');
-define('SMTP_PASS', 'ohxx skrc lymp cfzo');
+define('SMTP_USER', 'your@gmail.com');
+define('SMTP_PASS', 'XXX code XXXX');
 define('SMTP_PORT', 587);
 
 // --- HELPER FUNCTIONS ---
