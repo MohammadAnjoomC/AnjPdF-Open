@@ -20,8 +20,8 @@ function send_reset_link_email($to, $name, $link) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'your-email@gmail.com';
-        $mail->Password   = 'your app password'; // App Password
+        $mail->Username   = 'your-email@gmail.com'; App Gmail Type Here
+        $mail->Password   = 'your app password'; // App Password Type Here
         
         // Try SSL on 465 if TLS on 587 fails
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
